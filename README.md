@@ -40,8 +40,6 @@ o Validate that all fields are filled before submission. (5pts)
 o Compute subtotal = price × quantity for each product.(5 pts)
 o Automatically compute and display the overall total of all product subtotals. (10 pts)
 o Update the total whenever a new product is added. (10 pts)
-COMPUTER COMMUNICATION DEVELOPMENT INSTITUTE
-Rizal St., Sorsogon City 
 4. Design and Functionality (15 points)
 o Present a clean and organized layout. (3pts)
 o Use proper indentation and consistent naming conventions. (2pts)
