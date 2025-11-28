@@ -1,16 +1,48 @@
-# React + Vite
-
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+COMPUTER COMMUNICATION DEVELOPMENT INSTITUTE
+Rizal St., Sorsogon City 
+PRE-FINAL EXAM
+Project Overview:
+The Product Management App is a simple React-based application designed to help users 
+manage a list of products. The app allows users to view product details, add new products, and 
+automatically compute subtotals and the overall total value of all items. This project demonstrates 
+the student’s understanding of React components, state management, list rendering, form 
+handling, and basic computation using React Hooks.
+Project Objectives
+By completing this project, students will be able to:
+1. Implement React components and use props for passing data between components.
+2. Apply state management using the useState Hook to update and display dynamic data.
+3. Design a form component that allows adding new products to the list.
+4. Use JavaScript array methods such as .map() and .reduce() to render data and calculate 
+totals.
+5. Display computed values such as subtotal per product and overall total for all products.
+6. Practice clean code organization and UI presentation for usability and clarity.
+Project Requirements
+Students must create a functional React application that includes the following features:
+1. Display Product List (35 points)
+o Show at least three default products with fields: (5pts)
+1. Feature Image of the Product
+2. Product Name
+3. Price
+4. Quantity
+5. Subtotal.
+o Filter the product based on their category. (5pts)
+o Display the list in a table or card layout. (5pts)
+o Each product should have a dedicated page for detailed product description
+(15pts)
+o A button to add the product to Cart, and buttons to add/remove quantity. Apply 
+conditional rendering. (5pts)
+2. Add New Product (25 points)
+o Provide input fields for Feature Image of the Product, Product Name, Product 
+Category, Description, Product specification, Rating, Price, and Quantity. (10pts)
+o Allow adding new products dynamically to the list.(10 pts)
+o Validate that all fields are filled before submission. (5pts)
+3. Compute Totals (25 points)
+o Compute subtotal = price × quantity for each product.(5 pts)
+o Automatically compute and display the overall total of all product subtotals. (10 pts)
+o Update the total whenever a new product is added. (10 pts)
+COMPUTER COMMUNICATION DEVELOPMENT INSTITUTE
+Rizal St., Sorsogon City 
+4. Design and Functionality (15 points)
+o Present a clean and organized layout. (3pts)
+o Use proper indentation and consistent naming conventions. (2pts)
+o Include conditional formatting (e.g., “Low Stock” highlight if quantity < 5). (10 pts)
