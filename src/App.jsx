@@ -12,7 +12,7 @@ const PLACEHOLDER =
 const DEFAULT_PRODUCTS = [
   {
     id: "p1",
-    image: PLACEHOLDER,
+    image: "headphone.jpg",
     name: "Wireless Headphones",
     category: "Audio",
     description:
@@ -24,7 +24,7 @@ const DEFAULT_PRODUCTS = [
   },
   {
     id: "p2",
-    image: PLACEHOLDER,
+    image: "keyboard.jpg",
     name: "Mechanical Keyboard",
     category: "Peripherals",
     description: "RGB mechanical keyboard with blue switches.",
@@ -35,7 +35,7 @@ const DEFAULT_PRODUCTS = [
   },
   {
     id: "p3",
-    image: PLACEHOLDER,
+    image: "charger.jpg",
     name: "USB-C Charger 65W",
     category: "Accessories",
     description: "Fast charging PD 65W USB-C charger.",
