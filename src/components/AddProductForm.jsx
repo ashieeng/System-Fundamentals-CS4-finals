@@ -98,5 +98,5 @@ export default function AddProductForm({ showAddProduct }) {
       </div>
     )
   );
-  // --- END OF CORRECTED RETURN BLOCK ---
+  
 }

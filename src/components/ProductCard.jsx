@@ -8,6 +8,8 @@ export default function ProductCard({
 }) {
   return (
     <div className="bg-white border rounded p-4 shadow flex gap-4">
+
+      
       <img
         src={product.image}
         className="w-32 h-24 object-cover rounded"
