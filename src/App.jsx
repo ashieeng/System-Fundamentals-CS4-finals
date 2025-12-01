@@ -94,7 +94,7 @@ export default function App() {
 
         <header className="mb-6">
           <h1 className="text-3xl font-bold mb-2">
-            Alama-final — Product Management App
+            Product Management App
           </h1>
 
           <div className="flex gap-3">
