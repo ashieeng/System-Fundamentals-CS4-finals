@@ -53,7 +53,7 @@
 
 /* Add Product Form Modal */
 .add-product-modal {
-  background: #fff;
+  background: #61892a;
   padding: 24px;
   border-radius: 12px;
   width: 380px;
@@ -110,7 +110,7 @@
 
 .clear-btn {
   background-color: #ef4444;
-  color: #fff;
+  color: #4cb5d5;
   border: none;
   padding: 8px 12px;
   border-radius: 6px;
@@ -122,3 +122,42 @@
   background-color: #dc2626;
 }
 
+.animate-fadeIn {
+  animation: fadeIn 0.15s ease-out;
+}
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  padding: 20px;
+}
+
+.product-card {
+  background: #fff;
+  border-radius: 12px;
+  padding: 15px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+.product-img {
+  width: 100%;
+  height: 180px;
+  object-fit: contain;
+}
+
+.add-btn {
+  width: 100%;
+  padding: 10px;
+  background: black;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.price {
+  color: #0a84ff;
+  font-weight: bold;
+}

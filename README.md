@@ -1,14 +1,3 @@
-COMPUTER COMMUNICATION DEVELOPMENT INSTITUTE
-Rizal St., Sorsogon City 
-PRE-FINAL EXAM
-Project Overview:
-The Product Management App is a simple React-based application designed to help users 
-manage a list of products. The app allows users to view product details, add new products, and 
-automatically compute subtotals and the overall total value of all items. This project demonstrates 
-the student’s understanding of React components, state management, list rendering, form 
-handling, and basic computation using React Hooks.
-Project Objectives
-By completing this project, students will be able to:
 1. Implement React components and use props for passing data between components.
 2. Apply state management using the useState Hook to update and display dynamic data.
 3. Design a form component that allows adding new products to the list.

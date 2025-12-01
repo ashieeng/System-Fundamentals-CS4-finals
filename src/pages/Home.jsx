@@ -1,30 +1,39 @@
 import React from "react";
 import ProductCard from "../components/ProductCard";
 
-export default function Home({ products, setProducts, setSelected }) {
-  function changeQty(id, d) {
-    setProducts((prev) =>
-      prev.map((p) =>
-        p.id === id ? { ...p, quantity: Math.max(0, p.quantity + d) } : p
-      )
-    );
-  }
-
-  function addToCart(id) {
-    changeQty(id, 1);
-  }
+export default function Home() {
+  const products = [
+    {
+      name: "Charging Cable",
+      image: "/image/charger.jpg",
+      price: 250,
+    },
+    {
+      name: "Headphone",
+      image: "/image/headphone.jpg",
+      price: 499,
+    },
+    {
+      name: "Keyboard",
+      image: "/image/keyboard.jpg",
+      price: 799,
+    },
+  ];
 
   return (
-    <div className="space-y-4">
-      {products.map((p) => (
-        <ProductCard
-          key={p.id}
-          product={p}
-          onChangeQty={changeQty}
-          onAddToCart={addToCart}
-          onOpen={setSelected}
-        />
-      ))}
+    <div className="home">
+      <h1>Products</h1>
+
+      <div className="product-grid">
+        {products.map((item, index) => (
+          <ProductCard
+            key={index}
+            name={item.name}
+            image={item.image}
+            price={item.price}
+          />
+        ))}
+      </div>
     </div>
   );
 }
